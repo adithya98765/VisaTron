@@ -1,0 +1,90 @@
+
+
+/* Title Styling */
+.country-title {
+    letter-spacing: -1px;
+    font-weight: 700;
+    position: absolute;
+    left: 65px;
+    top: 200px;
+}
+.visa-title {
+    letter-spacing: -1px;
+    font-weight: 700;
+    position: absolute;
+    left: 420px;
+    top: 201px;
+}
+
+/* Country Info Box */
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    border-radius: 5%;
+    font-weight: 600;
+    max-width: 350px;
+    position: absolute;
+    left: 30px;
+    top: 230px;
+}
+
+/* Flag Styling */
+.flagstyl {
+    width: 300px;
+    height: auto;
+}
+
+/* Google Maps Iframe */
+.map-iframe {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    border: none;
+    position: absolute;
+    left: 50px;
+    top: 750px; /* Adjust this value to position it below the country info box */
+    margin-top: 10px;
+}
+
+
+/* PanAm Image */
+.panamstyl {
+    height: 580px;
+    width: 780px;
+    position: absolute;
+    left: 690px;
+    top: 190px;
+    pointer-events: none;
+}
+
+
+
+.visa-container {
+    position: absolute;
+    left: 400px;
+    top:230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures even spacing */
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    border-radius: 5%;
+    font-weight: 700;
+    max-width: 275px;
+    height: fit-content; /* Ensures it doesn't exceed the content */
+    word-wrap: break-word;  
+    overflow-wrap: break-word;  
+    white-space: normal;
+}
+
+  
