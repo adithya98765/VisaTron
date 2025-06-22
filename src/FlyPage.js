@@ -71,8 +71,7 @@ const Modal = ({ isOpen, onClose }) => {
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <h2 style={{ fontWeight: 800, letterSpacing: -1 }}>TYPES OF VISA</h2>
         
-        {/* Accordions and content here */}
-        {/* Accordion 1 */}
+        
         <div className="accordion-item">
           <div className="accordion-header" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
             <span className="arrow">&gt;</span> Visa Free
@@ -82,7 +81,7 @@ const Modal = ({ isOpen, onClose }) => {
           </div>
         </div>
 
-        {/* Accordion 2 */}
+    
         <div className="accordion-item">
           <div className="accordion-header" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
             <span className="arrow">&gt;</span> eVisa
@@ -92,7 +91,7 @@ const Modal = ({ isOpen, onClose }) => {
           </div>
         </div>
 
-        {/* Accordion 3 */}
+        
         <div className="accordion-item">
           <div className="accordion-header" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
             <span className="arrow">&gt;</span> Visa on Arrival
@@ -103,7 +102,7 @@ const Modal = ({ isOpen, onClose }) => {
           </div>
         </div>
 
-        {/* Accordion 4 */}
+        
         <div className="accordion-item">
           <div className="accordion-header" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
             <span className="arrow">&gt;</span> eTA
@@ -113,7 +112,7 @@ const Modal = ({ isOpen, onClose }) => {
           </div>
         </div>
 
-        {/* Accordion 5 */}
+        
         <div className="accordion-item">
           <div className="accordion-header" onClick={(e) => e.currentTarget.parentElement.classList.toggle('open')}>
             <span className="arrow">&gt;</span> Visa Required (Regular Visa)
@@ -217,7 +216,7 @@ function FlyPage() {
         )}
       </div>
 
-      {/* 👇 Renders the modal */}
+      
       <Modal isOpen={isOpen} onClose={() => setIsOpen(false)} />
 
       <div className="container text-center mt-5">
